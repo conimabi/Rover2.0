@@ -1,0 +1,24 @@
+# ===== 打包产物 / 二进制：用 GitHub Releases 分发，不入库 =====
+小白包/
+dist/
+_build/
+*.zip
+*.exe
+*.spec
+
+# ===== 运行时 =====
+logs/
+*.log
+rover20.pcm
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+Thumbs.db

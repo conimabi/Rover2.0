@@ -1,0 +1,8 @@
+# 统一换行：代码用 LF，批处理用 CRLF，二进制原样
+* text=auto
+*.py  text eol=lf
+*.md  text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+*.apk binary
+*.png binary
